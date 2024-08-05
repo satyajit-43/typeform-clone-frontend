@@ -1,0 +1,55 @@
+.box{
+    display: flex;
+    max-height: 700px;
+}
+
+.box1{
+    width: 50vw;
+    padding: 5px;
+    background-color: rgb(14, 121, 82);
+    text-align:left;
+    justify-content: start;
+    align-items:center;
+}
+
+.box2{
+    width: 50vw;
+    overflow: hidden;
+}
+
+.box2 img{
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    font-size: 60px;
+    color: white;
+    margin-top: 250px;
+    margin-left: 45px;
+    padding: 20px;
+}
+
+.box1 button{
+    margin-left: 70px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+.imag{
+   /* background-color: aqua;
+   border: 2px solid black;
+   width: 200px;
+   height: 200px;
+   border-radius: 200px; */
+   text-align: center;
+}
+
+.imag img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
